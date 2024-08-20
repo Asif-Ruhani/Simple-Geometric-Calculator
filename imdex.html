@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="OuterDiv">
+          <div class="ShapeDiv">
+              
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/triangle.png" alt=""></div>
+                <h1>Triangle</h1>
+                <p>Area (A) = 0.5 x b x h</p>
+    
+                <div class="InputDiv">
+                    <input id="TriangeBase" type="number" placeholder="b">
+                    <span>cm</span>
+                    <input id="TriangeHeight" type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                
+                <button id="TriangleButton">Calculate</button>
+                
+    
+            </div>
+    
+    
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/rectangle.png" alt=""></div>
+                <h1>Rectange</h1>
+                <p>Area (A) = w x l</p>
+    
+                <div class="InputDiv">
+                    <input type="number" placeholder="b">
+                    <span>cm</span>
+                    <input type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                <button>Calculate</button>
+    
+            </div>
+    
+    
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/parallelogram.png" alt=""></div>
+                <h1>Parallelogram</h1>
+                <p>Area (A) =b x h</p>
+    
+                <div class="InputDiv">
+                    <input type="number" placeholder="b">
+                    <span>cm</span>
+                    <input type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                <button>Calculate</button>
+    
+            </div>
+    
+    
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/rhombus.png" alt=""></div>
+                <h1>Rhombus</h1>
+                <p>Area (A) = 0.5 x d<sub>1</sub> x d<sub>2</sub></p>
+    
+                <div class="InputDiv">
+                    <input type="number" placeholder="b">
+                    <span>cm</span>
+                    <input type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                <button>Calculate</button>
+    
+            </div>
+    
+    
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/pentagon.png" alt=""></div>
+                <h1>Pentagon</h1>
+                <p>Area (A) = 0.5 x p x b</p>
+    
+                <div class="InputDiv">
+                    <input type="number" placeholder="b">
+                    <span>cm</span>
+                    <input type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                <button>Calculate</button>
+    
+            </div>
+    
+    
+            <div class="SingleShapeDiv">
+                <div class="image"><img src="images/ellipse.png" alt=""></div>
+                <h1>Ellipse</h1>
+                <p>Area (A) = Pi x ab</p>
+    
+                <div class="InputDiv">
+                    <input type="number" placeholder="b">
+                    <span>cm</span>
+                    <input type="number" placeholder="h">
+                    <span>cm</span>
+                </div>
+                <button>Calculate</button>
+    
+            </div>
+
+          </div>
+
+
+        <div id="ResultDiv">
+              <h2>Area Calculation</h2>
+              <div style="text-align: center;">
+                <span>Area:</span><input id="Area" type="text"><span>cm<sup>2</sup></span>
+                <div><button id="ResultReset">Reset</button></div>
+              </div>
+        </div>
+    </div>
+ 
+    
+
+    <script src="index.js"></script>
+</body>
+</html>

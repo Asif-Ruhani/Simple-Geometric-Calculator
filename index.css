@@ -1,0 +1,84 @@
+
+.OuterDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ShapeDiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid red; */
+    gap: 25px;
+    margin: 0px auto;
+}
+.SingleShapeDiv{
+   box-shadow: 0px 0px 6px 1px;
+   /* border: 1px solid red; */
+   height: 500px;
+   width: 400px;
+}
+.SingleShapeDiv h1, p{
+    text-align: center;
+}
+.image{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.InputDiv{
+    /* border: 1px solid red; */
+    width: 300px;
+    margin-left: 65px;
+}
+.InputDiv input{
+    width: 100px;
+    padding-left: 20px;
+    height: 25px;
+    border: none;
+    background: rgba(128, 128, 128, 0.185);
+    
+}
+.SingleShapeDiv button{
+   width: 300px;
+   height: 40px;
+   background-color: rgba(0, 0, 255, 0.445);
+   border: none;
+   border-radius: 10px;
+   padding-left: 10px;
+   margin-top: 20px;
+   margin-left: 12.5%;
+   font-size: larger;
+   color: white;
+}
+.SingleShapeDiv button:hover{
+    opacity: 70%;
+}
+#ResultDiv{
+    /* border: 1px solid red; */
+    width: 400px;
+    height: 200px;
+    margin-right: 20px;  
+    box-shadow: 0px 0px 6px 1px;
+}
+#ResultDiv h2{
+  text-decoration: underline;
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 800;
+}
+#ResultDiv button{
+    margin-top: 50px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+#Area{
+    margin: 0px 10px;
+    width: 80px;
+    background-color: rgba(128, 128, 128, 0.11);
+    border: none;
+    height: 20px;
+}
