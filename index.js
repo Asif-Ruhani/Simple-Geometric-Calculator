@@ -6,7 +6,7 @@ document.getElementById('TriangleButton').addEventListener('click',function(){
      const Result=0.5*base.value*height.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
@@ -20,7 +20,7 @@ document.getElementById('RectanglButton').addEventListener('click',function(){
      const Result=base.value*height.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
@@ -33,7 +33,7 @@ document.getElementById('ParallelogramButton').addEventListener('click',function
      const Result=base.value*height.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
@@ -46,7 +46,7 @@ document.getElementById('RhombusButton').addEventListener('click',function(){
      const Result=0.5*FirstCorner.value*SecondCorner.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
@@ -60,7 +60,7 @@ document.getElementById('PentagonButton').addEventListener('click',function(){
      const Result=0.5*Perimeter.value*Apothem.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
@@ -73,7 +73,7 @@ document.getElementById('EllipseButton').addEventListener('click',function(){
      const Result=3.1416*base.value*height.value;
 
       const area=document.getElementById('Area');
-      area.value=Result;
+      area.value=Result.toFixed(4);   // for four digits after decimal point
     //   p, div, span egula hole "innerText"
     // input hole "vlaue"
 
